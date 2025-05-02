@@ -26,3 +26,56 @@ section{
 #comments{
     background-image: url(img/bgCOMMENTS.png);
 }
+.main_block,.about_block,.skills_block,.works_block,.comments_block{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+.main_block{
+    flex-direction: column;
+}
+.main_content{
+    height: 223px;
+    width: 849px;
+    background-image: url(img/form1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.main_content h1{
+    font-weight: 700;
+    font-size: 80px;
+    color: #2B2D35;
+}
+.main_content p{
+    font-weight: 700;
+    font-size: 20px;
+    color: #2B2D35;
+    font-family: "Comfortaa", sans-serif;
+    margin-top: 10px;
+}
+.main_block img{
+    margin-right: 600px;
+}
+.button{
+    width: 200px;
+    height: 60px;
+    background-color: #BBFF2C;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 6px 6px 2px#000000;
+    transition: all 0.5s;
+}
+.button a{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2B2D35;
+}
+.button:hover{
+    transform: scale(1.1)
+}
