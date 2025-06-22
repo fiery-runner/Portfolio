@@ -7,6 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <div class="fixed_menu">
+            <h1 class="logo">DI</h1>
+            <div class="nav_links">
+                <a href="#main" class="nav_link active main_link">Главная</a>
+                <a href="#about" class="nav_link about_link">Обо мне</a>
+                <a href="#skills" class="nav_link skills_link">Навыки</a>
+                <a href="#works" class="nav_link works_link">Работы</a>
+                <a href="#comments" class="nav_link comments_link">Отзывы</a>
+            </div>
+            <div class="mobile_button">
+                <img src="img/mobile_menu.png" > 
+            </div>
+            <div class="mobile_menu hide" >
+                <div class="mobile_nav_links">
+                    <a href="#main" class="nav_link">Главная</a>
+                    <a href="#about" class="nav_link">Обо мне</a>
+                    <a href="#skills" class="nav_link">Навыки</a>
+                    <a href="#works" class="nav_link">Работы</a>
+                    <a href="#comments" class="nav_link">Отзывы</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
    <section id="main">
     <div class="main_block">
         <img src="img/maskot.png" alt="" width="192px">
@@ -17,30 +42,102 @@
         <div class="button">
             <a href="">Подробнее</a>
         </div>
-
-
+        <img src="img/planet.png" alt="" class="planet">
+    </div>
+    <div class="moving_planet">
+        
     </div>
    </section>
    <section id="about">
+    <h1 class="title">ОБО МНЕ</h1>
     <div class="about_block">
+        <div class="about_text">
+            <p>
+                Меня зовут Данила. Я занимаюсь разработкой <br> современных сайтов и приложений.
+            </p>
+            <p>
+                Мне нравится создавать интересные и <br> современные проекты.
+            </p>
+            <div class="button">
+                <a href="">Мои Навыки</a>
+            </div>
+        </div>
+        <div class="about_card">
+            <img src="img/photo.png" alt="">
+            <p>
+                Где живу: Лимасол
+            </p>
+            <p>
+                Возраст: 13
+            </p>
+            <p>
+                Хобби: Моделирование
+            </p>
+
+
+        </div>
         
     </div>
    </section>
    <section id="skills">
+    <h1 class="title">НАВЫКИ</h1>
     <div class="skills_block">
-        
+        <div class="skills_card">
+            <p>ЭТОТ САЙТ Я СДЕЛАЛ В РАМКАХ ОБУЧЕНИЯ ШКОЛЫ ROCKET TECH SCHOOL</p>
+            <div class="languages">
+                <img src="img/html.png" alt="html" >
+                <img src="img/css.png" alt="css" >
+                <img src="img/js.png" alt="js" >
+            </div>
+            <div class="button">
+                <a href="">Смотреть работы</a>
+            </div>
+        </div>
     </div>
    </section>
    <section id="works">
+    <h1 class="title">PAБОТЫ</h1>
     <div class="works_block">
-        
+        <img src="img/work1.png" alt="" >
+        <img src="img/work2.png" alt="" >
+        <img src="img/work3.png" alt="" >
     </div>
    </section>
    <section id="comments">
+     <h1 class="title">ОТЗЫВЫ</h1>
     <div class="comments_block">
-        
+        <div class="comment_card">
+            <img src="img/photo1.png" alt="">
+            <h3>Владимир</h3>
+            <p>Основатель Rocket Tech School</p>
+        </div>
+        <div class="comment">
+            <p>Эта мальчик проходил обучение веб разработке 4 месяца, и уже создает сложные сайты!</p>
+        </div>
+        <div class="comment_card">
+            <img src="img/photo2.png" alt="">
+            <h3>Диана</h3>
+            <p>Product Lead Rocket Tech School</p>
+        </div>
+        <div class="comment">
+            <p>Очень хорошо пишет код. Отличная оптимизация сайта. Современно, стильно, молодежно!</p>
+        </div>
     </div>
    </section>
+   <footer>
+    <div class="footer_content">
+        <p>ДАНИЛА ИВАНОВ</p>
+        <p>Личный сайт веб разработчика</p>
+        <div class="social_icons">
+            <img src="img/discord.svg" alt="Discord"></a>
+            <img src="img/facebook.svg" alt="Facebook"></a>
+            <img src="img/instagram.svg" alt="Instagram"></a>
+            <img src="img/telegram.svg" alt="Telegram"></a>
+        </div>
+        <p class="copyright">(с) 2025</p>
+    </div>
+    </footer>
+
    
     <script src="script.js"></script> 
 </body>
